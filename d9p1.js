@@ -37,7 +37,6 @@ for(let i = 0; i < input.length; i++){
 		if(dy == 2){
 			t[1] = (t[1] + h[1])/2;
 		}
-		console.log(t[0], t[1], h[0], h[1]);
 		pa[t[0] + "," + t[1]] = 1;
 	}
 }
