@@ -27,7 +27,7 @@ function zip3(a){
 	return r;	
 }
 
-console.log(
+confirm(
 	zip3(input
 		.split(/\n+/g))
 		.map(([a,b,c])=>intersection(intersection(new Set(a), new Set(b)), new Set(c)))
